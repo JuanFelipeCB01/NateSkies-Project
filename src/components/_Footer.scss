@@ -1,0 +1,27 @@
+.footer{
+    height: 10vh;
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &-social{
+        display: flex;
+        gap: 16px;
+
+        &-item{
+            color: white;
+
+            .smi{
+                color: white;
+
+                i{
+                    color: white;
+                }
+            }
+
+            .smi:hover{
+               color: rgb(255, 200, 0)
+            }
+        }
+    }
+}

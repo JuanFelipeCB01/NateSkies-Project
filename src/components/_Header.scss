@@ -7,8 +7,21 @@
     align-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
+    &-logo{
+        color: black;
+    }
+
     &-nav{
         display: flex;
+        justify-content: center;
         gap: 16px;
+
+        &-text{
+            color: black;
+        }
+
+        &-text:hover{
+            color: rgb(255, 200, 0);
+        }
     }
 }
