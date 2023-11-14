@@ -1,0 +1,20 @@
+.home{
+
+    &-header{
+        height: 90%;
+        background-color: rgb(15, 15, 15);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &-logo{
+            padding: 40px 0px;
+            width: 920px;
+        }
+    }
+
+    &-folders{
+        height: 80vh;
+
+    }
+}

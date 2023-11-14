@@ -1,0 +1,14 @@
+.header{
+    height: 10vh;
+    background-color: white;
+    padding: 0px 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    &-nav{
+        display: flex;
+        gap: 16px;
+    }
+}
