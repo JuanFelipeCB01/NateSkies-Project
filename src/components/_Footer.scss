@@ -10,17 +10,23 @@
 
         &-item{
             color: white;
+            display: flex;
+            gap: 10px;
+            
+            .plat{
+                
 
-            .smi{
-                color: white;
-
-                i{
+                .smi{
                     color: white;
-                }
-            }
 
-            .smi:hover{
-               color: rgb(255, 200, 0)
+                    i{
+                        color: white;
+                    }
+                }
+
+                .smi:hover{
+                color: rgb(255, 200, 0)
+                }
             }
         }
     }

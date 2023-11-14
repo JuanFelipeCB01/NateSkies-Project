@@ -11,7 +11,7 @@ export default function Header() {
         <Link to='/videoclips' className='header-nav-text'>CLIPS</Link>
         <Link to='/music' className='header-nav-text'>MUSIC</Link>
         <Link to='/bio' className='header-nav-text'>BIO</Link>
-        <Link to='/merchandaising' className='header-nav-text'>MERCH</Link>
+        <Link to='/merch' className='header-nav-text'>MERCH</Link>
       </nav>
     </div>
   ) 
