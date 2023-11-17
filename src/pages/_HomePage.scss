@@ -9,12 +9,64 @@
 
         &-logo{
             padding: 40px 0px;
-            width: 720px;
+            max-width: 720px;
+            height: auto;
         }
     }
 
     &-folders{
-        height: 80vh;
+        padding-top: 5vh;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 100px;
 
+        &-item{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .folder-img{
+                width: 100px;
+                transition: 0.5s;
+
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+
+            span{
+                color: black;
+            }
+        }
+
+        .folder1{
+            margin: 150px 10px;
+        }
+
+        .folder3{
+            margin-top: 300px;
+        }
+    }
+
+    &-photodump{
+        display: flex;
+        justify-content: center;
+
+        &-flex{
+            display: flex;
+            justify-content: space-around;
+            max-width: 50%;
+            flex-wrap: wrap;
+        }
+        
+        .photodump-pic{
+            padding-bottom: 15vh;
+
+           &-img{
+            width: 300px;
+           }
+        }
     }
 }

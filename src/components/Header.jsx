@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <div className='header'>
       <Link to="/">
-        <h2 className='header-logo'>NATE SKIES</h2>
+        <h2 className='header-logo'>NATE SKIES ==</h2>
       </Link>
       <nav className='header-nav'>
         <Link to='/videoclips' className='header-nav-text'>CLIPS</Link>
